@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-dark);
+}
+
+:root {
+    --clr-dark: #161622;
+    --clr-main: #181826;
+    --clr-light: #EDF2F6;
+    --clr-cta: #13E4E4;
+}
+
+.font-main {
+    font-family: Montserrat;
+}
+
+.font-secondary {
+    font-family: 'KoHo';
+}
+
+.font-dark {
+    color: var(--clr-main);
+}
+
+.font-light {
+    color: var(--clr-light);
+}
+
+.font-white {
+    color: #fff;
+}
+
+.font-cta {
+    color: var(--clr-cta);
+}
+
+.section {
+    padding: 50px 7.5% 0 7.5%;
+}
+
+.section-hero {
+    width: 100%;
+    padding: 96px 7.5%;
+    background-image: url(../img/2206_w020_n002_1433b_p15_1433\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    font-family: Montserrat;
+    position: relative;
+    padding: 0 0 16px 0;
+}
+
+.section-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 48px;
+    background-color: white;
+}
+
+.hero-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+
+.hero-text {
+    font-size: 20px;
+    max-width: 50%;
+    line-height: 32px;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.card-skill {
+    min-width: 280px;
+    width: calc(30% - 20px);
+    padding: 25px;
+    box-shadow: 0px 2px 5px 2px #00000033;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    position: relative;
+    background-color: var(--clr-main);
+    max-width: 420px;
+}
+
+
+
+.card-skill_design {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 25px;
+    right: 25px;
+    background-image: url(../img/design-shape.png);
+    background-size: contain;
+}
+
+.card-icon {
+    max-width: 48px;
+    max-height: 48px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: white;
+}
