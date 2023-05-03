@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+        <link rel='shortcut icon' type='image/x-icon' href='../assets/img/logo.ico' />
 </head>
 
 <body>
@@ -58,20 +59,23 @@
                 <div class="project-card_figure project4">
                 </div>
                 <h3 class="project-card_title">Cyber Café</h3>
-                <div class="project-card_text">Application de gestion des réservations et des postes d' un café. Projet de formation.</div>
+                <div class="project-card_text">Application de gestion des réservations et des postes d' un cyber café.</div>
                 <div class="project-card_tags"><div class="project-card_tag">web</div><div class="project-card_tag">nodejs</div></div>
             </div>
             <div class="project-card">
                 <div class="project-card_figure project5">
                 </div>
-                <h3 class="project-card_title">Projet 5</h3>
-                <div class="project-card_text">En cours...</div>
+                <h3 class="project-card_title">Tisanes Péi</h3>
+                <div class="project-card_text">En cours</div>
+                <div class="project-card_tags"><div class="project-card_tag">shopify</div><div class="project-card_tag">e-commerce</div></div>
             </div>
             <div class="project-card">
                 <div class="project-card_figure project6">
                 </div>
-                <h3 class="project-card_title">Projet 6</h3>
+                <h3 class="project-card_title">Application mobile</h3>
                 <div class="project-card_text">En cours...</div>
+                <div class="project-card_tags"><div class="project-card_tag">mobile</div><div class="project-card_tag">api</div></div>
+
             </div>
         </div>
     
@@ -114,9 +118,9 @@
     </div>
 </div>
 
-      <!-- FOOTER SECTION -->
-      <div class="section-footer">      
-        <h2 class="footer-title">Langages et Technologies</h2>
+      <!-- TOOL  SECTION -->
+      <div class="section-tool">      
+        <h2 class="tool-title">Langages et Technologies</h2>
         <div class="container-tool">
             <div class="tool-card">
                 <div class="tool-icon"><img src="../assets/img/icon-css.png" width="64px" height="64px"></div>
@@ -129,6 +133,11 @@
                 <div class="tool-rate"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"></div>
             </div>
             <div class="tool-card">
+                <div class="tool-icon"><img src="../assets/img/icon-figma.png" width="64px" height="64px"></div>
+                <h4 class="tool-name">Figma</h4>
+                <div class="tool-rate"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"></div>
+            </div>
+            <div class="tool-card">
                 <div class="tool-icon"><img src="../assets/img/icon-nodejs.png" width="64px" height="64px"></div>
                 <h4 class="tool-name">NodeJS</h4>
                 <div class="tool-rate"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"></div>
@@ -138,11 +147,7 @@
                 <h4 class="tool-name">Laravel</h4>
                 <div class="tool-rate"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"></div>
             </div>
-            <div class="tool-card">
-                <div class="tool-icon"><img src="../assets/img/icon-figma.png" width="64px" height="64px"></div>
-                <h4 class="tool-name">Figma</h4>
-                <div class="tool-rate"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-filled.png" class="tool-star" width="18px" height="18px"><img src="../assets/img/star-empty.png" class="tool-star" width="18px" height="18px"></div>
-            </div>
+
             <div class="tool-card">
                 <div class="tool-icon"><img src="../assets/img/icon-react.png" width="64px" height="64px"></div>
                 <h4 class="tool-name">React</h4>
@@ -170,7 +175,16 @@
             </div>
         </div>
     </div>
-    
+    <!-- FOOTER SECTION -->
+    <div class="section-footer">
+        <div class="footer-image"></div>
+        <h2 class="footer-title">Me contacter</h2>
+        <label for="email-input" class="footer-email_label">Adresse Email</label>
+        <input type="text" id="email-input" class="footer-email_input" placeholder="...">
+        <label for="message-label" class="footer-message_label">Votre message</label>
+        <textarea type="text" id="message-input" class="footer-message_input" placeholder="..."></textarea>
+        <input type="submit" id="submit-button" class="footer-cta" value="Confirmer">
+    </div>
 </body>
 
 </html>
