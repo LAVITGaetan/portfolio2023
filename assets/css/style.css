@@ -33,6 +33,12 @@ body {
     position: fixed;
     z-index: 1000;
 }
+.navbar-figure {
+    height: 80px;
+    width: 80px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+}
 
 .navbar-contact {
     transition: .5s ease-in;
@@ -270,19 +276,18 @@ padding: 6px 14px;
 }
 
 .section-footer {
-    background-color: #060C18;
+    background-color: #D6E2FB;
     width: 100%;
     margin-top: 40px;
-    border-top: 3px solid #13E4E4;
     padding: 30px 8% 0 8%;
 }
 
 .footer-title {
     font-size: 22px;
-    color: #fff;
+    color: #060C18;
     text-align: left;
-    letter-spacing: 0.07em;
     text-align: center;
+    font-weight: 700;
 }
 
 .container-tool {
@@ -296,12 +301,11 @@ padding: 6px 14px;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #060C18;
+    background-color: #fff;
     padding: 24px 32px;
-    border-top: 3px solid #9EF3F3;
     margin-right: 20px;
     margin-bottom: 40px;
-    box-shadow: 0px 4px 10px 3px #000000ad;
+    box-shadow: 0px 4px 10px 1px #00000025;
 
 }
 
@@ -315,7 +319,8 @@ padding: 6px 14px;
     text-align: center;
     margin-top: 18px;
     margin-bottom: 18px;
-    color: #fff;
+    font-weight: 600;
+    color: #060C18;
 }
 
 .tool-rate {
@@ -523,10 +528,14 @@ margin: auto;
     grid-area: 4 / 1 / 5 / 2;
     padding: 10px 20px;
 }
+
+.tool-name {
+    font-size: 18px;
+}
 }
 .curved {
     position: relative;
-    background: #060C18;
+    background: #D6E2FB;
     height: 48px;
     border-bottom-left-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
