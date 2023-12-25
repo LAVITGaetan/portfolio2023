@@ -1,0 +1,45 @@
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    padding: 0 15%;
+    height: 80px;
+    border-bottom: 2px solid var(--clr-light);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    color: var(--clr-main);
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+}
+
+.navbar-theme {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.theme-container {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: var(--clr-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
