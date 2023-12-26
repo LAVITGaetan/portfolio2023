@@ -4,7 +4,7 @@
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    padding: 48px 15%;
+    padding: 32px 17%;
     background-color: var(--clr-accent-light);
 }
 
@@ -43,8 +43,8 @@
 }
 
 .skills-figure {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     background-color: var(--clr-secondary);
     border-radius: 64px;
     display: flex;
