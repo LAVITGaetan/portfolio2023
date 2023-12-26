@@ -1,5 +1,5 @@
 .projects {
-    padding: 32px 17%;
+    padding: 0 10%;
 }
 
 .projects-card {
@@ -27,21 +27,36 @@
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
-    /* 27px */
     letter-spacing: 0.72px;
+    position: relative;
+}
+
+.projects-name:before {
+content: "";
+bottom: -4px;
+left: 0;
+position: absolute;
+width: 64px;
+height: 4px;
+background-color: var(--clr-accent);
 }
 
 .projects-description {
     grid-area: 2 / 2 / 3 / 3;
-    color: #0E0E0F;
+    color: var(--clr-secondary);
 font-family: Lexend;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 170%; /* 25.5px */
+line-height: 170%;
+
 letter-spacing: 0.6px;
 }
 
 .projects-action {
     grid-area: 3 / 2 / 4 / 3;
+}
+
+.projects .action-text {
+    font-size: 14px;
 }

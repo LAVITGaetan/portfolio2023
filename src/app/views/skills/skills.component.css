@@ -4,8 +4,8 @@
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    padding: 32px 17%;
-    background-color: var(--clr-accent-light);
+    padding: 32px 10%;
+    background: linear-gradient(-45deg, rgba(255,255,255,1) -150%, rgba(243,247,255,1) 100%);
 }
 
 .skills-header {
@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto 16px auto;
-    box-shadow: 5px 5px 0 0 var(--clr-accent);
+    box-shadow: 3px 3px 0 0 var(--clr-accent);
 }
 
 .skills-name {

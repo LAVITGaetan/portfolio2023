@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 24px;
-    padding: 0 17%;
+    padding: 0 10%;
     height: 80px;
     border-bottom: 2px solid var(--clr-light);
 }
@@ -26,6 +26,23 @@
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.64px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-link:before {
+    transition: .3s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: var(--clr-accent);
+    left: 0;
+    bottom: -4px;
+}
+
+.navbar-link:hover:before {
+    width: 100%;
 }
 
 .navbar-theme {
