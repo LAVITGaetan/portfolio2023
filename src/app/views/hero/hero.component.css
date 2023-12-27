@@ -65,6 +65,10 @@
         grid-column-gap: 0;
         grid-row-gap: 20px;
     }
+
+    .hero-figure {
+        display: none;
+    }
     
 .header-main {
     font-size: 26px;
