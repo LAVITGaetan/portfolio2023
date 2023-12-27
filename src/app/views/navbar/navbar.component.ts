@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
+swapTheme () {
+  document.body.classList.toggle('darkmode')
+}
 }

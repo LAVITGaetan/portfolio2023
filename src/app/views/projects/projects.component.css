@@ -8,21 +8,40 @@
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    margin: 32px 0;
+    margin: 24px 0;
 }
 
 .projects-figure {
+    transition: .3s;
     grid-area: 1 / 1 / 4 / 2;
-    border-radius: 4px;
     width: 100%;
     height: 100%;
-    background-color: var(--clr-secondary);
+    max-height: 200px;
+    background-color: var(--clr-light);
+    padding: 20px;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-image {
+    transition: .3s;
+    width: 260px;
+    border-radius: 4px;
+    filter: blur(.5px);
+}
+
+.projects-figure:hover {
+    background-color: var(--clr-accent);}
+
+.projects-image:hover {
+    filter: blur(0);
 }
 
 .projects-name {
     grid-area: 1 / 2 / 2 / 3;
-    color: #0E0E0F;
-    font-family: Lexend;
+    color: #var(--clr-main);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -32,25 +51,23 @@
 }
 
 .projects-name:before {
-content: "";
-bottom: -4px;
-left: 0;
-position: absolute;
-width: 64px;
-height: 4px;
-background-color: var(--clr-accent);
+    content: "";
+    bottom: -4px;
+    left: 0;
+    position: absolute;
+    width: 64px;
+    height: 4px;
+    background-color: var(--clr-accent);
 }
 
 .projects-description {
     grid-area: 2 / 2 / 3 / 3;
     color: var(--clr-secondary);
-font-family: Lexend;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 170%;
-
-letter-spacing: 0.6px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 0.6px;
 }
 
 .projects-action {
@@ -59,4 +76,39 @@ letter-spacing: 0.6px;
 
 .projects .action-text {
     font-size: 14px;
+}
+
+
+@media screen and (max-width: 948px) {
+
+    .projects-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-column-gap: 24px;
+        grid-row-gap: 20px;
+        margin: 48px 0;
+    }
+    
+    .projects-figure {
+        grid-area: 1 / 1 / 2 / 2;
+        justify-content: flex-start;
+        background-color: transparent;
+        padding: 0;
+    }
+    
+    .projects-name {
+        grid-area: 2 / 1 / 3 / 2;
+        font-size: 17px;
+    }
+    
+    .projects-description {
+        grid-area: 3 / 1 / 4 / 2;
+        font-size: 14px;
+    }
+    
+    .projects-action {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
 }
