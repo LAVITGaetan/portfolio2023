@@ -33,14 +33,14 @@
 }
 
 .header-main {
-    color: #var(--clr-main);
+    color: #0E0E0F;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1.12px;
 }
 
 .text-important {
-    color: #var(--clr-main);
+    color: #0E0E0F;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

@@ -41,7 +41,7 @@
 
 .projects-name {
     grid-area: 1 / 2 / 2 / 3;
-    color: #var(--clr-main);
+    color: #0E0E0F;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
